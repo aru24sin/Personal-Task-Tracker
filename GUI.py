@@ -1,6 +1,7 @@
 import tkinter as tk
 from tkinter import *
 from tkmacosx import Button
+import sv_ttk
 
 # Initialize the main window
 root = Tk()
@@ -18,6 +19,8 @@ highlight_color = "#3a3d41"  # Highlight color for listbox
 
 # Set the background color
 root.configure(bg=bg_color)
+
+sv_ttk.set_theme("dark")
 
 # List to store tasks
 tasks = []
