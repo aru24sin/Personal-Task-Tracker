@@ -49,7 +49,7 @@ def delete_task():
         pass  # No task selected
 
 # Set icon image for the window
-imgIcon = PhotoImage(file="/Users/aru/Downloads/cc005054a4a30e2e44fb4ff12a17c1d4.png")
+imgIcon = PhotoImage(file="/Users/aru/Documents/images/cc005054a4a30e2e44fb4ff12a17c1d4.png")
 root.iconphoto(False, imgIcon)
 
 # Heading label with VSCode-like dark background and light text
