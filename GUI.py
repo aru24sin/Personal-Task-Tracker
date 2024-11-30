@@ -79,5 +79,3 @@ deleteButton.place(x=25, y=380)
 
 # Start the GUI main loop
 root.mainloop()
-
-
